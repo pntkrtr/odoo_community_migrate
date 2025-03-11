@@ -15,7 +15,7 @@ pip install pywin32==255
 
 pip install git+https://github.com/OCA/openupgradelib.git@master#egg=openupgradelib
 
-git clone -b 14.0 https://github.com/OCA/OpenUpgrade.git
+git clone -b <Versión_destino> https://github.com/OCA/OpenUpgrade.git
 
 python odoo-bin --db_user=<tu_usuario_db> --db_password=<tu_contraseña_db> --database=<nombre_db> \
 --upgrade-path=<Directorio_Clonado>/OpenUpgrade/openupgrade_scripts/scripts --update all --stop-after-init \
