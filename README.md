@@ -18,7 +18,7 @@ pip install git+https://github.com/OCA/openupgradelib.git@master#egg=openupgrade
 git clone -b 14.0 https://github.com/OCA/OpenUpgrade.git
 
 python odoo-bin --db_user=<tu_usuario_db> --db_password=<tu_contraseña_db> --database=<nombre_db> \
---upgrade-path=<Acceso a la descarga anterior>/OpenUpgrade/openupgrade_scripts/scripts --update all --stop-after-init \
+--upgrade-path=<Directorio_Clonado>/OpenUpgrade/openupgrade_scripts/scripts --update all --stop-after-init \
 --load=base,web,openupgrade_framework
 
 Ajustar la configuración para Odoo y OpenUpgrade, editando los archivos de configuración y parámetros de línea de comandos para apuntar a la base de datos que debe ser actualizada. 
